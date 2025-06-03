@@ -12,11 +12,5 @@ $(document).ready(function(){
         },
     });
 
-    $('.corner-wrap').on('mouseover', function(){
-        $(this).find('.big-corner-wrap').addClass('active');
-        $(this).find('.small-corner-wrap').addClass('active');
-    }).on('mouseleave', function(){
-        $(this).find('.big-corner-wrap').removeClass('active');
-        $(this).find('.small-corner-wrap').removeClass('active');
-    });
+
 });

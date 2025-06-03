@@ -3,7 +3,7 @@
 /* 기본 레이아웃 */
 #container { width: 100vw; height: 100vh; overflow-x: hidden; padding: 40px 48px; background-color: var(--bg-color); }
 #container.main { padding-right: 0; }
-#container .wrap { display: grid; grid-template-columns: 72px auto; gap: 16px; width: 100%; height: 100%; } 
+#container .wrap { display: grid; grid-template-columns: 72px calc(100% - 88px); gap: 16px; width: 100%; height: 100%; } 
 #container.main .wrap { grid-template-columns: 72px 800px auto; }
 
 .contents { height: 100%; }

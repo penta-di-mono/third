@@ -18,7 +18,7 @@
     <script src="/third/resources/js/swiper.min.js"></script>
     <script src="/third/resources/js/wow.min.js"></script>
     <script src="/third/resources/js/common.js"></script>
-    <script src="/third/resources/js/main.js"></script>
+    <script src="/third/resources/js/sub.js"></script>
 </head>
 <body>
     <div id="container" class="portfolio">
@@ -27,7 +27,7 @@
             <?php include 'header.php'; ?>
         
 
-            <div class="contents">
+            <div class="contents pf-view-active">
                 <div class="cont-wrap">
                     <div class="cont cont1">
                         <h3>Portfolio</h3>
@@ -38,59 +38,65 @@
                         </div>
                     </div>
                     <div class="cont cont2">
-                        <div class="pf-list swiper-container">
-                            <ul class="swiper-wrapper">
-                                <li class="swiper-slide">
-                                    <div class="thumbnail">
-                                        <p class="img-box"><img src="/third/resources/img/portfolio/01/pf_01_thumb2.jpg" alt=""></p>
-                                        <div class="tit">
-                                            <p>SHAPER</p>
-                                            <div class="tag">
-                                                <p>PLANNING</p>
-                                                <p>DESIGN</p>
-                                                <p>PUBLISHING</p>
+                        <div class="pf-list-wrap">
+                            <div class="pf-list">
+                                <ul class="swiper-wrapper">
+                                    <li class="swiper-slide">
+                                        <div class="thumbnail">
+                                            <p class="img-box"><img src="/third/resources/img/portfolio/01/pf_01_thumb2.jpg" alt=""></p>
+                                            <div class="tit">
+                                                <p>SHAPER</p>
+                                                <div class="tag">
+                                                    <p>PLANNING</p>
+                                                    <p>DESIGN</p>
+                                                    <p>PUBLISHING</p>
+                                                </div>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="thumbnail">
-                                        <p class="img-box"><img src="/third/resources/img/portfolio/01/pf_01_thumb2.jpg" alt=""></p>
-                                        <div class="tit">
-                                            <p>SHAPER</p>
-                                            <div class="tag">
-                                                <p>PLANNING</p>
-                                                <p>DESIGN</p>
-                                                <p>PUBLISHING</p>
+                                    </li>
+                                    <li class="swiper-slide">
+                                        <div class="thumbnail">
+                                            <p class="img-box"><img src="/third/resources/img/portfolio/01/pf_01_thumb2.jpg" alt=""></p>
+                                            <div class="tit">
+                                                <p>SHAPER</p>
+                                                <div class="tag">
+                                                    <p>PLANNING</p>
+                                                    <p>DESIGN</p>
+                                                    <p>PUBLISHING</p>
+                                                </div>
                                             </div>
                                         </div>
-                                    </div>
-                                </li>
-                                <li class="swiper-slide">
-                                    <div class="thumbnail">
-                                        <p class="img-box"><img src="/third/resources/img/portfolio/01/pf_01_thumb2.jpg" alt=""></p>
-                                        <div class="tit">
-                                            <p>SHAPER</p>
-                                            <div class="tag">
-                                                <p>PLANNING</p>
-                                                <p>DESIGN</p>
-                                                <p>PUBLISHING</p>
+                                    </li>
+                                    <li class="swiper-slide">
+                                        <div class="thumbnail">
+                                            <p class="img-box"><img src="/third/resources/img/portfolio/01/pf_01_thumb2.jpg" alt=""></p>
+                                            <div class="tit">
+                                                <p>SHAPER</p>
+                                                <div class="tag">
+                                                    <p>PLANNING</p>
+                                                    <p>DESIGN</p>
+                                                    <p>PUBLISHING</p>
+                                                </div>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="thumbnail">
-                                        <p class="img-box"><img src="/third/resources/img/portfolio/01/pf_01_thumb2.jpg" alt=""></p>
-                                        <div class="tit">
-                                            <p>SHAPER</p>
-                                            <div class="tag">
-                                                <p>PLANNING</p>
-                                                <p>DESIGN</p>
-                                                <p>PUBLISHING</p>
+                                    </li>
+                                    <li class="swiper-slide">
+                                        <div class="thumbnail">
+                                            <p class="img-box"><img src="/third/resources/img/portfolio/01/pf_01_thumb2.jpg" alt=""></p>
+                                            <div class="tit">
+                                                <p>SHAPER</p>
+                                                <div class="tag">
+                                                    <p>PLANNING</p>
+                                                    <p>DESIGN</p>
+                                                    <p>PUBLISHING</p>
+                                                </div>
                                             </div>
                                         </div>
-                                    </div>
-                                </li>
-                            </ul>
+                                    </li>
+                                </ul>
 
-                            <div class="pt-swiper-pagenation"></div>
+                                <div class="pt-swiper-pagenation"></div>
+                            </div>
                         </div>
                     </div>
                 </div>

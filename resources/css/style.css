@@ -18,12 +18,12 @@
 .about .cont-wrap .cont2 > div { height: 100%; padding: 48px; background-color: #fff; border-radius: var(--basic-corner); box-shadow: var(--basic-sha); position: relative; }
 .about .cont-wrap .cont-box .tit { font: 500 48px/100% var(--font-family); letter-spacing: -0.96px; margin-bottom: 36px; }
 
-.about .cont-wrap .cont2 .history { width: calc((100% - 292px) * 0.45); max-width: 640px; }
+.about .cont-wrap .cont2 .history { width: calc((100% - 19.8156682%) * 0.45); max-width: 640px; }
 .about .cont-wrap .cont2 .history dl div { display: grid; grid-template-columns: 172px auto; gap: 24px; }
 .about .cont-wrap .cont2 .history dl div + div { margin-top: 16px; }
 .about .cont-wrap .cont2 .history dl div > * { font: 300 22px/100% var(--font-family); }
 
-.about .cont-wrap .cont2 .skill { width: calc((100% - 292px) * 0.55); max-width: 720px; }
+.about .cont-wrap .cont2 .skill { width: calc((100% - 19.8156682%) * 0.55); max-width: 720px; }
 .about .cont-wrap .cont2 .skill .skill-ico-wrap { display: grid; grid-template-columns: repeat(3, 160px); gap: 52px; }
 .about .cont-wrap .cont2 .skill .skill-ico-wrap p {font: 500 16px/100% var(--font-family); margin-bottom: 12px; }
 .about .cont-wrap .cont2 .skill .skill-ico-wrap ul { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; }
@@ -33,7 +33,7 @@
 .about .cont-wrap .cont2 .skill .skill-ico-wrap p.gage .bar.w90 { width: 90%; }
 .about .cont-wrap .cont2 .skill .skill-ico-wrap p.gage .bar.w55 { width: 55%; }
 
-.about .cont-wrap .cont2 .portfolio { width: 292px; background-color: var(--point-color); color: #fff; }
+.about .cont-wrap .cont2 .portfolio { width: 19.8156682%; min-width: 292px; max-width: 344px; background-color: var(--point-color); color: #fff; }
 .about .cont-wrap .cont2 .portfolio .tit { color: #fff; }
 
 
@@ -41,39 +41,46 @@
 /* 포트폴리오 */
 .portfolio .contents { width: 100%; position: relative; }
 .portfolio .cont-wrap { display: grid; grid-template-rows: 176px auto; gap: 16px; height: 100%; }
-.portfolio .cont-wrap .cont1 { display: flex; justify-content: space-between; padding: 54px 80px; background-color: #fff; border-radius: var(--basic-corner); box-shadow: var(--basic-sha); }
-.portfolio .cont-wrap h3 { font: 500 68px/100% var(--font-family); letter-spacing: -1.36px; }
-.portfolio .cont-wrap .cate-wrap { display: flex; align-items: center; gap: 16px; }
-.portfolio .cont-wrap .cate-wrap > a { display: block; height: 56px; font: 400 20px/56px var(--font-family); letter-spacing: -0.4px; padding: 0 32px; border-radius: 40px; border: 1px solid var(--main-black); }
- 
-.portfolio .cont-wrap .cont2 { height: 100%; background-color: #fff; padding: 64px 64px 64px 48px; border-radius: var(--basic-corner); box-shadow: var(--basic-sha); }
-.portfolio .cont-wrap .pf-list .swiper-slide { display: grid; grid-template-columns: repeat(2, 1fr); gap: 40px; width: 100%; }
-.portfolio .cont-wrap .thumbnail .img-box { border-radius: 32px; overflow: hidden; margin-bottom: 24px; }
-.portfolio .cont-wrap .thumbnail .tit { padding: 0 8px; position: relative; }
-.portfolio .cont-wrap .thumbnail .tit > p { font: 600 48px/100% var(--font-family); letter-spacing: 0.96px; }
-.portfolio .cont-wrap .thumbnail .tit .tag { display: flex; align-items: center; gap: 8px; position: absolute; right: 8px; top: 3px; }
-.portfolio .cont-wrap .thumbnail .tit .tag > p { font: 400 16px/100% var(--font-family); letter-spacing: -0.32px; padding: 13px 20px 11px; border-radius: 40px; border: 1px solid var(--main-black); }
-
+.portfolio .cont1 { display: flex; justify-content: space-between; padding: 54px 80px; background-color: #fff; border-radius: var(--basic-corner); box-shadow: var(--basic-sha); }
+.portfolio h3 { font: 500 68px/100% var(--font-family); letter-spacing: -1.36px; }
+.portfolio .cate-wrap { display: flex; align-items: center; align-items: center; gap: 16px; }
+.portfolio .cate-wrap > a { display: block; height: 56px; font: 400 20px/56px var(--font-family); letter-spacing: -0.4px; padding: 0 32px; border-radius: 40px; border: 1px solid var(--main-black); }
+ .portfolio .cont2 { width: 100%; height: 100%; background-color: #fff; padding: 64px 40px 64px 48px; border-radius: var(--basic-corner); box-shadow: var(--basic-sha); }
+.portfolio .cont2 .pf-list-wrap { height: 100% !important; }
+.portfolio .cont2 .pf-list { width: 100%; height: 100%; padding-right: 40px; overflow: hidden; position: relative; }
+.portfolio .cont2 .pf-list .swiper-wrapper { display: grid; grid-template-columns: repeat(2, 1fr); gap: 0 40px; height: 100%; }
+.portfolio .cont2 .pf-list .swiper-slide { height: 100% !important; }
+.portfolio .thumbnail .img-box { width: 100%; height: 0; padding-bottom: max(53.57148571%, 424px); border-radius: 32px; overflow: hidden; margin-bottom: 24px; position: relative; }
+.portfolio .thumbnail .img-box img { width: 100%; height: 100%; object-fit: cover; position: absolute; }
+.portfolio .thumbnail .tit { padding: 0 8px; position: relative; }
+.portfolio .thumbnail .tit > p { font: 600 48px/100% var(--font-family); letter-spacing: 0.96px; }
+.portfolio .thumbnail .tit .tag { display: flex; align-items: center; gap: 8px; position: absolute; right: 8px; top: 3px; }
+.portfolio .thumbnail .tit .tag > p { font: 400 16px/100% var(--font-family); letter-spacing: -0.32px; padding: 13px 20px 11px; border-radius: 40px; border: 1px solid var(--main-black); }
+.portfolio .pt-swiper-pagenation { display: flex; flex-direction: column; gap: 12px; position: absolute; right: 0; top: 50%; transform: translate(0, -50%); }
+.portfolio .pt-swiper-pagenation .swiper-pagination-bullet { background-color: var(--main-black); border-radius: 40px; margin: 0; transition: all 0.3s ease; }
+.portfolio .pt-swiper-pagenation .swiper-pagination-bullet-active { height: 40px; background-color: var(--point-color); }
 
 .portfolio .contents .view-wrap { width: 92%; height: 100%; max-width: 1120px; padding: 44px 40px 40px; border-radius: var(--basic-corner); background-color: #fff; box-shadow: var(--basic-sha); overflow: hidden; position: absolute; right: 0; top: 0; z-index: 3; transform: translateX(105%); transition: all 0.4s ease-in; }
-.portfolio .contents .view-wrap.active { transform: translateX(0); }
 .portfolio  .pf-cont-wrap { height: 100%; padding-right: 6px; overflow-y: auto; }
-
 .portfolio  .pf-cont-wrap::-webkit-scrollbar { width: 6px; }
 .portfolio  .pf-cont-wrap::-webkit-scrollbar-thumb { background-color: var(--point-color); /* 스크롤바 색상 */ border-radius: 10px; /* 스크롤바 둥근 테두리 */ }
 .portfolio  .pf-cont-wrap::-webkit-scrollbar-track { background-color: transparent;  /*스크롤바 뒷 배경 색상*/ }
 
-
-
-
-
-
-
-
-
-
-
-
+/* 포트폴리오 view모드 */
+.portfolio .contents.pf-view-active .cont-wrap { grid-template-rows: 80px auto; width: calc(100% - 1136px); }
+.portfolio .contents.pf-view-active .cont1 { padding: 22px 38px; }
+.portfolio .contents.pf-view-active h3 { font: 500 1.875vw/100% var(--font-family); letter-spacing: -0.72px; }
+.portfolio .contents.pf-view-active .cate-wrap{ gap: 8px; }
+.portfolio .contents.pf-view-active .cate-wrap > a  { height: 40px; font: 400 1.041666vw/40px var(--font-family); letter-spacing: -0.4px; padding: 0 14px; }
+.portfolio .contents.pf-view-active .cont2 { padding: 40px; }
+.portfolio .contents.pf-view-active .cont2 .pf-list { padding-right: 0; padding-bottom: 10px; }
+.portfolio .contents.pf-view-active .swiper-wrapper { grid-template-columns: 1fr; grid-template-rows: repeat(2, calc((100% - 20px) / 2)); gap: 20px; }
+.portfolio .contents.pf-view-active .thumbnail .img-box { padding-bottom: max(52%, 252px); border-radius: 20px; margin-bottom: 8px; }
+.portfolio .contents.pf-view-active .thumbnail .tit > p { font: 600 32px/100% var(--font-family); letter-spacing: -0.64px; }
+.portfolio .contents.pf-view-active .thumbnail .tit .tag { display: none; }
+.portfolio .contents.pf-view-active .pt-swiper-pagenation { flex-direction: row; gap: 8px; right: auto; left: 50%; transform: translate(-50%, 0); top: auto; bottom: 0; }
+.portfolio .contents.pf-view-active .pt-swiper-pagenation .swiper-pagination-bullet-active { height: 8px; }
+.portfolio .contents.pf-view-active .view-wrap { transform: translateX(0); }
 
 
 
