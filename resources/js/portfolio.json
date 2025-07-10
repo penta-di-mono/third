@@ -1,0 +1,104 @@
+{
+  "portfolio": {
+    "1": {
+      "client": "Shaper Corp.",
+      "name": "shaper",
+      "say" : {
+        "1" : "The current website is too old,",
+        "2" : "I want more refined website."
+      },
+      "exp": "Web agency Shaper's website renewal",
+      "character": {
+        "1": "Responsive"
+      },
+      "start": "2024.1",
+      "open": "2024.3",
+      "thumb1": "/third/resources/img/portfolio/01/pf_01_thumb1.jpg",
+      "thumb2": "/third/resources/img/portfolio/01/pf_01_thumb2.jpg",
+      "thumb3": "/third/resources/img/portfolio/01/pf_01_thumb3.jpg",
+      "thumb4": "/third/resources/img/temp_thumb3_img.png",
+      "asset": "/third/resources/img/portfolio/01/pf_01_asset.jpg",
+      "contri1": 90,
+      "contri2": 82,
+      "contri3": 36,
+      "draft": "https://vo.la/Utstucz",
+      "homepage": "https://www.shaper.co.kr",
+      "entire": "/third/resources/img/portfolio/01/pf_01_total.jpg",
+      "detail": {
+        "1": "/third/resources/img/portfolio/01/pf_01_detail1.jpg",
+        "2": "/third/resources/img/portfolio/01/pf_01_detail2.jpg",
+        "3": "/third/resources/img/portfolio/01/pf_01_detail3.jpg"
+      },
+      "tag": "pdp",
+      "device" : "web",
+      "feat": "pj1 pj2 pj3"
+    },
+    "2": {
+      "client": "HYUNDAI",
+      "name": "hyundai yangjae tutorial",
+      "say" : {
+        "1" : "Make it easier for executives and",
+        "2" : "employees to find our company's",
+        "3" : "various supports."
+      },
+      "exp": "Hyundai Office Building Business Support Guide",
+      "character": {
+        "1": "Easy to use"
+      },
+      "start": "2023.7",
+      "open": "2023.8",
+      "thumb1": "/third/resources/img/portfolio/02/pf_02_thumb1.jpg",
+      "thumb2": "/third/resources/img/portfolio/02/pf_02_thumb2.jpg",
+      "thumb3": "/third/resources/img/portfolio/02/pf_02_thumb3.jpg",
+      "thumb4": "/third/resources/img/temp_thumb3_img.png",
+      "asset": "/third/resources/img/portfolio/02/pf_02_asset.jpg",
+      "contri1": 50,
+      "contri2": 92,
+      "contri3": 55,
+      "draft": "https://vo.la/Utstucz",
+      "homepage": "#none",
+      "entire": "/third/resources/img/portfolio/02/pf_02_total.jpg",
+      "detail": {
+        "1": "/third/resources/img/portfolio/02/pf_02_detail1.jpg",
+        "2": "/third/resources/img/portfolio/02/pf_02_detail2.jpg"
+      },
+      "tag": "pdp",
+      "device" : "web",
+      "feat": "pj2 pj3"
+    },
+    "3": {
+      "client": "Lareka Health",
+      "name": "Lareka Health",
+      "say" : {
+        "1" : "Please create a website for",
+        "2" : "a company that feels trusted."
+      },
+      "exp": "Lareka Health Offical Homepage",
+      "character": {
+        "1": "Responsive"
+      },
+      "start": "2024.8",
+      "open": "2024.9",
+      "thumb1": "/third/resources/img/portfolio/03/pf_03_thumb1.jpg",
+      "thumb2": "/third/resources/img/portfolio/03/pf_03_thumb2.jpg",
+      "thumb3": "/third/resources/img/portfolio/03/pf_03_thumb3.jpg",
+      "thumb4": "/third/resources/img/temp_thumb3_img.png",
+      "asset": "/third/resources/img/portfolio/03/pf_03_asset.jpg",
+      "contri1": 70,
+      "contri2": 72,
+      "contri3": 48,
+      "draft": "https://vo.la/Utstucz",
+      "homepage": "https://larekah.com/",
+      "entire": "/third/resources/img/portfolio/03/pf_03_total.jpg",
+      "detail": {
+        "1": "/third/resources/img/portfolio/02/pf_02_detail1.jpg",
+        "2": "/third/resources/img/portfolio/02/pf_02_detail2.jpg",
+        "3": "/third/resources/img/portfolio/02/pf_02_detail3.jpg",
+        "4": "/third/resources/img/portfolio/02/pf_02_detail4.jpg"
+      },
+      "tag": "pdp",
+      "device" : "web",
+      "feat": "pj2 pj3"
+    }
+  }
+}

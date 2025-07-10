@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Penta Di Mono 3rd</title>
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/third/favicon.ico" type="image/x-icon">
 
     <!-- css -->
     <link rel="stylesheet" href="/third/resources/css/animate.css">
@@ -17,7 +19,7 @@
     <script src="/third/resources/js/jquery.easing.min.js"></script>
     <script src="/third/resources/js/swiper.min.js"></script>
     <script src="/third/resources/js/wow.min.js"></script>
-    <script src="/third/resources/js/common.js"></script>
+
     <script src="/third/resources/js/main.js"></script>
 </head>
 <body>
@@ -97,93 +99,11 @@
             <div class="list-wrap">
                 <div class="swiper-container">
                     <ul class="swiper-wrapper">
-                        <li class="swiper-slide">
-                            <div class="list-cont corner-wrap">
-                                
-                                <div class="list-tag">
-                                    <p>DESIGN</p>
-                                    <p>PUBLISHING</p>
-                                </div>
-
-                                <p class="img-box"><img src="/third/resources/img/portfolio/01/pf_01_thumb1.jpg" alt=""></p>
-                                <p class="comp-name">SHAPER</p>
-                                
-                                <div class="info-wrap">
-                                    <dl>
-                                        <dt>Clien</dt>
-                                        <dd>Shaper Corp.</dd>
-                                    </dl>
-                                    <dl>
-                                        <dt>Open</dt>
-                                        <dd>2024. 3</dd>
-                                    </dl>
-                                    <dl>
-                                        <dt>URL</dt>
-                                        <dd>www.shaper.co.kr</dd>
-                                    </dl>
-                                </div>
-
-                                <div class="small-corner-wrap">
-                                    <a href="/third/portfolio.php">about 바로가기</a>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="swiper-slide">
-                            <div class="list-cont">
-                                <div class="list-tag">
-                                    <p>DESIGN</p>
-                                    <p>PUBLISHING</p>
-                                </div>
-
-                                <p class="img-box"><img src="/third/resources/img/portfolio/01/pf_01_thumb1.jpg" alt=""></p>
-                                <p class="comp-name">SHAPER</p>
-                                
-                                <div class="info-wrap">
-                                    <dl>
-                                        <dt>Clien</dt>
-                                        <dd></dd>
-                                    </dl>
-                                    <dl>
-                                        <dt>Open</dt>
-                                        <dd></dd>
-                                    </dl>
-                                    <dl>
-                                        <dt>URL</dt>
-                                        <dd></dd>
-                                    </dl>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="swiper-slide">
-                            <div class="list-cont">
-                                <div class="list-tag">
-                                    <p>DESIGN</p>
-                                    <p>PUBLISHING</p>
-                                </div>
-
-                                <p class="img-box"><img src="/third/resources/img/portfolio/01/pf_01_thumb1.jpg" alt=""></p>
-                                <p class="comp-name">SHAPER</p>
-                                
-                                <div class="info-wrap">
-                                    <dl>
-                                        <dt>Clien</dt>
-                                        <dd></dd>
-                                    </dl>
-                                    <dl>
-                                        <dt>Open</dt>
-                                        <dd></dd>
-                                    </dl>
-                                    <dl>
-                                        <dt>URL</dt>
-                                        <dd></dd>
-                                    </dl>
-                                </div>
-                            </div>
-                        </li>
                     </ul>
                 </div>
             </div>
         </div>
     </div>
+    <script src="/third/resources/js/common.js"></script>
 </body>
 </html>

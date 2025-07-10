@@ -1,9 +1,9 @@
 @charset "utf-8";
 
 /* 기본 레이아웃 */
-#container { width: 100vw; height: 100vh; overflow-x: hidden; padding: 40px 48px; background-color: var(--bg-color); }
+#container { width: 100vw; height: auto; overflow-x: hidden; overflow-y: auto; padding: 40px 48px; background-color: var(--bg-color); }
 #container.main { padding-right: 0; }
-#container .wrap { display: grid; grid-template-columns: 72px calc(100% - 88px); gap: 16px; width: 100%; height: 100%; } 
+#container .wrap { display: grid; grid-template-columns: 72px calc(100% - 88px); gap: 16px; width: 100%; height: 100%; min-height: calc(100vh - 80px); } 
 #container.main .wrap { grid-template-columns: 72px 800px auto; }
 
 .contents { height: 100%; }
@@ -37,8 +37,6 @@ header .sub-btn-wrap .about-sub-btn .call-to-mi {  background: #fff url('/third/
 header .sub-btn-wrap .about-sub-btn .call-to-mi a { display: block; width: 100%; height: 100%; }
  
 
-
-
 .big-corner-wrap { width: 0; height: 0; overflow: hidden; position: absolute; right: -12px; bottom: -12px; z-index: 2; transition: all 0.6s ease; }
 .big-corner-wrap::before { content: ''; display: block; width: 132px; height: 132px; background: url('/third/resources/img/common_corner_fff.svg') no-repeat right bottom/contain; position: absolute; right: 0; bottom: 0; }
 .big-corner-wrap.point-corner::before { background: url('/third/resources/img/common_corner_point.svg') no-repeat right bottom/contain; }
@@ -52,12 +50,53 @@ header .sub-btn-wrap .about-sub-btn .call-to-mi a { display: block; width: 100%;
 .small-corner-wrap a { display: block; width: 52px; height: 52px; border-radius: 50%; background: var(--key-color) url('/third/resources/img/common_ico_arr_top_smail.svg') no-repeat center/18px 18px; box-shadow: var(--basic-sha); font-size: 0; position: absolute; right: 8px; top: 8px; opacity: 0; transition: all 0.6s ease; transition-delay: 0.4s; }
 .small-corner-wrap.active a { opacity: 1; }
 
-
-@media screen and (min-height:892px){
-    #container { overflow-y: hidden; }
+@media screen and (min-width:1281px) and (min-height:820px){
+    #container { height: 100vh; overflow-y: hidden; }
 }
 
+@media screen and (max-width:1600px){
+    .big-corner-wrap { right: -10px; bottom: -10px; }
+    .big-corner-wrap.active { width: 120px; height: 120px; }
+    .big-corner-wrap::before { width: 120px; height: 120px; }
+}
+@media screen and (max-width:1024px){
+    #container .wrap { display: flex; flex-direction: column; flex-wrap: nowrap; }
+    #container.portfolio .wrap { display: grid; grid-template-columns: auto; }
 
+    header { width: 100%; height: 72px; border-radius: 40px; }
+    .header-wrap nav { position: absolute; left: 5%; top: 50%; transform: translateY(-50%); }
+    header .btn-nav { margin: 0; }
+    header nav ul { width: 184px; height: 138px; padding: 38px 33px 28px 30px; background-image: url('/third/resources/img/common_ico_bloont.png'); position: absolute; top: calc(100% + 12px); left: -32px; }
+    header h1 { left: 55%; top: 50%; transform: rotate(-0) translate(-50%, -50%); }
+    header h1 > a { gap: 24px; }
+    header .sub-btn-wrap { width: auto; position: fixed; bottom: 5%; right: 5%; opacity: 0; transition: all 0.3s ease; }
+    header .sub-btn-wrap.active { opacity: 1; }
+    header .sub-btn-wrap > div { flex-direction: column; }
+    header .sub-btn-wrap > div > * { width: 64px; }
+}
+@media screen and (max-width:768px){
+    #container.portfolio header .sub-btn-wrap.active { display: none; }
 
+    .big-corner-wrap { right: -9px; bottom: -9px; }
+    .big-corner-wrap.active { width: 104px; height: 104px; }
+    .big-corner-wrap::before { width: 104px; height: 104px; }
+    .big-corner-wrap a { width: 56px; height: 56px; background-size: 20px 20px; }
+}
+@media screen and (max-width:640px){
+    #container { padding: 32px; }
+
+    header h1 > a { gap: 20px; }
+    header h1 > a > span.line { width: 80px; }
+}
+@media screen and (max-width:480px){
+    #container { padding: 24px; }
+
+    header { height: 64px; }
+    .header-wrap nav { left: 20px; }
+    header h1 { left: 57%; }
+    header h1 > a { gap: 12px; }
+    header h1 > a > span { font-size: 15px; }
+    header h1 > a > span.line { width: 60px; }
+}
 
 

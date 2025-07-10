@@ -16,7 +16,6 @@
     --bg-color: #F6F7F9;
 
     --basic-sha: 2px 3px 8px rgba(0,0,0,0.08);
-
     --basic-corner: 40px;
 
     /* font-basic */
@@ -186,10 +185,14 @@ body.noneScroll { overflow: hidden; }
     .inner { width: calc(98% - 100px); margin: 0 auto 0 2%; }
 }
 @media screen and (max-width:1280px){
-    .inner { width: calc(98% - 80px); }
+    :root {
+        --basic-corner: 32px;
+    }
 }
 @media screen and (max-width:768px){
-    .inner { width: calc(98% - 60px); }
+    :root {
+        --basic-corner: 28px;
+    }
 }
 @media screen and (max-width:640px){
     .inner { width: 100%; padding: 0 4%; margin: 0 auto; }
